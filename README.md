@@ -1,7 +1,7 @@
 # windowsTimeSync
 Syncs Windows System Time, to be run at startup
 
-Place the time.bat file in your windows startup folder. You can open it quickly by pressing Windows Key + R and running "shell:startup". Please note that some versions of Windows has a startup folder for individual users as well as for all system users. Individual startup folders are located somewhere within the user's folder. 
+Place the timeSync.bat file in your windows startup folder. You can open it quickly by pressing Windows Key + R and running "shell:startup". Please note that some versions of Windows has a startup folder for individual users as well as for all system users. Individual startup folders are located somewhere within the user's folder. 
 
 After you add the file to your startup folder, I would hit Windows Key + R and run msConfig. From there make sure that the bat file is set to run. Then restart your system. It may take 30 to 60 seconds for this bat file to run after a user logs on. 
 
